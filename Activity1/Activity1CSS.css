@@ -1,0 +1,47 @@
+#background {
+    background-color:#CCD5AE;
+}
+
+.header {
+    background-color: #FEFAE0;
+    text-align: center;
+    width: 980px;
+    height: 140px;
+}
+
+.column {
+    background-color: #FAEDCD;
+    float: left;
+}
+  
+.column.one {
+    width: 270px;
+    height: 450px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.column.two {
+    width: 690px;
+    height: 450px;
+    margin: 15px;
+  }  
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: #FEFAE0;
+    text-align: center;
+    width: 980px;
+    height: 70px;
+}
+
+#NoMargin{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
